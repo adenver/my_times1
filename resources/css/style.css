@@ -24,6 +24,12 @@ font-weight: bold
   .logo span{
     color: mediumaquamarine;
   }
+  nav{
+    display:inline-block;
+  }
+  .info{
+    display: inline-block;
+  }
 nav span{
 display:inline-block;
 padding: 20px 10px
@@ -141,7 +147,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: ;
+    flex-direction: column;
     width: 100%;
     height: 250px;
     background-color: MediumAquamarine;
@@ -160,7 +166,4 @@ footer .title {
 }
 .copy{
   display:block;
-}
-footer nav{
-  display:inline-block;
 }
